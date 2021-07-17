@@ -1,0 +1,44 @@
+.Footer .footerBox {
+  color: #FFFFFF;
+  background-color: #3B3054;
+  background-image: url("./Vector.svg");
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Footer .greenButton {
+  background-color: #2ACFCF;
+  color: #FFFFFF;
+  border-radius: 50px;
+  padding: 20px 40px 20px 40px;
+  border: none;
+}
+
+.Footer .socialMedia {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  background-color: #35323E;
+  color: #FFFFFF;
+  justify-content: space-around;
+}
+
+.Footer .stronger {
+  font-weight: 600;
+}
+
+.Footer .mediaIcons {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Footer .iconInstance {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .Footer .socialMedia {
+    flex-direction: column;
+  }
+}

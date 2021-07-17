@@ -1,0 +1,72 @@
+.Navbar {
+  position: fixed;
+  background-color: #FFFFFF;
+  top: 0;
+  left: 0;
+  width: 80vw;
+  height: 100px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 4fr 1fr 3fr;
+
+}
+
+.Navbar .dropdown {
+  background-color: #F0F1F6;
+  display: none;
+  width: 40px;
+}
+
+.Navbar .dropdownReveal {
+  display: none;
+  position: fixed;
+
+  top: 100px;
+  background-color: inherit;
+}
+
+.image {
+  width: 40px;
+}
+
+.Navbar .noButton {
+  border: none;
+  text-align: left;
+  margin-left: 20px;
+  background-color: inherit;
+}
+
+.Navbar .greenButton, .Navbar .miniGreenButton{
+  background-color: #2ACFCF;
+  color: #FFFFFF;
+  border-radius: 50px;
+  border: none;
+}
+
+.Navbar .greenButton {
+  margin: 20px 40px 20px 40px;
+}
+
+.Navbar .miniGreenButton {
+
+}
+
+@media screen and (max-width: 800px) {
+  .Navbar .dropdownReveal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+  }
+  .Navbar {
+   grid-template-columns: 10fr 1fr;
+  }
+  .Navbar .dropdown {
+    display: block;
+  }
+  .Navbar .desktop {
+    display: none;
+  }
+}

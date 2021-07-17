@@ -1,0 +1,40 @@
+.Shortener {
+  margin-top: 30px;
+  background-color: #3B3054;
+  background-image: url("./Vector.svg");
+  background-size: cover;
+  max-width: 1100px;
+  max-height: 168px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.Shortener .greenButton {
+  background-color: #2ACFCF;
+  color: #FFFFFF;
+  border-radius: 50px;
+  padding: 20px 40px 20px 40px;
+  margin-left: 20px;
+  border: none;
+}
+
+.Shortener .input {
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+.Shortener .error {
+  border-color: #F46262;
+  color: #F46262;
+}
+
+.Shortener .loading {
+  color: #FFFFFF;
+  text-align: center;
+}

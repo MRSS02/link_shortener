@@ -1,0 +1,52 @@
+.PageInfo {
+  background-color: #F0F1F6;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+}
+
+.PageInfo .Statistics {
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.PageInfo .descriptionFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.PageInfo .square {
+  padding: 20px;
+  margin: 2vw;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  min-width: 300px;
+  min-height: 240px;
+  max-width: 400px;
+  max-height: 320px;
+}
+.PageInfo .descriptionText {
+  font-weight: 400;
+}
+
+.PageInfo .top {
+  margin-top: 0px;
+}
+
+.PageInfo .middle {
+  margin-top: 40px;
+}
+
+.PageInfo .bottom {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .PageInfo .descriptionFlex {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}
