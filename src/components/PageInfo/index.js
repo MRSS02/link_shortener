@@ -10,6 +10,8 @@ export default function PageInfo() {
         </p>
       </div>
       <div className="descriptionFlex">
+        <div className="greenBox">
+        </div> 
         <div className="square top">
           <img className="image" src="/assets/Icon-2.svg" />
           <h2>Brand Recognition</h2>
