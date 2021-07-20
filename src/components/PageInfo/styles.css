@@ -4,6 +4,12 @@
   padding-bottom: 30px;
 }
 
+.PageInfo p {
+  font-weight: 400;
+  color: #9E9AA7;
+
+}
+
 .PageInfo .Statistics {
   max-width: 80vw;
   margin-left: auto;
@@ -43,9 +49,7 @@
   max-width: 400px;
   height: 269px;
 }
-.PageInfo .descriptionText {
-  font-weight: 400;
-}
+
 
 .PageInfo .top {
   margin-top: 0px;

@@ -6,6 +6,11 @@
 
 }
 
+.Header p {
+  color: #9E9AA7;
+  font-weight: 400;
+}
+
 .Header .Image {
   position: relative;
   right: 0;
@@ -56,9 +61,13 @@
     display: none;
   }
   .Header .mobile {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
   }
   .Header .Image {
-    width: 80vw;
+    width: 100vw;
+    align-self: flex-end;
+    margin-right: -12vw;
   }
 }
