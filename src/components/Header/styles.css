@@ -6,20 +6,31 @@
 
 }
 
+.Header .Image {
+  position: relative;
+  right: 0;
+  width: 45vw;
+}
+
 .Header .text {
   margin: 5vw;
+  margin-left: 0;
   font-weight: 300;
+  max-width: 500px;
 }
 
 .Header .text h1 {
   font-size: 55px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .Header .desktop {
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: space-between;
+  width: 90vw;
+  margin-left: 10vw;
 }
 
 .Header .greenButton {
@@ -28,6 +39,11 @@
   border-radius: 50px;
   padding: 20px 40px 20px 40px;
   border: none;
+}
+
+.Header .greenButton:hover {
+  background-color: #1ABFBF;
+  cursor: pointer;
 }
 
 .Header .mobile {

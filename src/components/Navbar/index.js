@@ -3,15 +3,6 @@ import {useState} from "react"
 
 export default function() {
   const [isActive, setIsActive] = useState(false)
-  const dropdownMenu = (
-    <div className="dropdownReveal">
-      <button className="noButton">Features</button>
-      <button className="noButton">Pricing</button>
-      <button className="noButton left">Resources</button>
-      <button className="noButton">Login</button>
-      <button className="miniGreenButton">Sign Up</button>
-    </div>
-  )
   function reveal() {
     setIsActive(!isActive)
   }
@@ -27,7 +18,15 @@ export default function() {
       onClick={reveal}>
         <img className="image" src="/assets/hamburger-menu.svg" />
       </button>
-        {isActive && dropdownMenu}
+        {isActive && (
+        <div className="dropdownReveal">
+          <button className="noButton">Features</button>
+          <button className="noButton">Pricing</button>
+          <button className="noButton left">Resources</button>
+          <button className="noButton">Login</button>
+          <button className="miniGreenButton">Sign Up</button>
+        </div>
+       )}
     </div>
   )
 }

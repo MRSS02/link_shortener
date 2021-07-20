@@ -1,5 +1,10 @@
 .Shortener {
+  background: linear-gradient(180deg, #FFFFFF 50%, #F0F1F6 50%);
+}
+
+.Shortener .container {
   margin-top: 30px;
+  border-radius: 10px;
   background-color: #3B3054;
   background-image: url("./Vector.svg");
   background-size: cover;
@@ -26,7 +31,7 @@
   padding-bottom: 20px;
   border-radius: 10px;
   font-weight: 300;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .Shortener .error {
@@ -37,4 +42,10 @@
 .Shortener .loading {
   color: #FFFFFF;
   text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .Shortener .greenButton {
+   margin-top: 40px;
+  }
 }

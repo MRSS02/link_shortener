@@ -11,7 +11,7 @@ export default function PageInfo() {
       </div>
       <div className="descriptionFlex">
         <div className="square top">
-          <img src="/assets/Icon-2.svg" />
+          <img className="image" src="/assets/Icon-2.svg" />
           <h2>Brand Recognition</h2>
           <p className="descriptionText"> Boost your brand recognition with each click.
           Generic links don’t mean a thing. Branded links
@@ -19,7 +19,7 @@ export default function PageInfo() {
           </p>
         </div>
         <div className="square middle">
-          <img src="/assets/Icon-1.svg" />
+          <img className="image" src="/assets/Icon-1.svg" />
           <h2>Detailed Records</h2>
           <p className="descriptionText"> Gain insights into who is clicking your links.
           Knowing when and where people engage with your
@@ -27,7 +27,7 @@ export default function PageInfo() {
           </p>
         </div>
         <div className="square bottom">
-          <img src="/assets/Icon.svg" />
+          <img className="image" src="/assets/Icon.svg" />
           <h2>Fully Customizable</h2>
           <p className="descriptionText"> Improve brand awareness and content discoverability
           through customizable links, supercharging audience engagement.
