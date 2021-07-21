@@ -7,7 +7,14 @@
 .PageInfo p {
   font-weight: 400;
   color: #9E9AA7;
+}
 
+.PageInfo h2 {
+  margin-top: 15%;
+}
+
+.PageInfo .descriptionFlex {
+  text-align: left;
 }
 
 .PageInfo .Statistics {
@@ -25,7 +32,7 @@
 .PageInfo .image {
   position: absolute;
   top: -30px;
-  width: 80px;
+  width: 84px;
   left: 32px;
 }
 
@@ -36,7 +43,6 @@
   height: 8px;
   width: 77%;
   background-color: #2ACFCF;
-
 }
 
 .PageInfo .square {
@@ -94,7 +100,6 @@
   .PageInfo .image {
     position: absolute;
     top: -30px;
-    width: 80px;
     left: 40%;
   }
   .PageInfo h2 {

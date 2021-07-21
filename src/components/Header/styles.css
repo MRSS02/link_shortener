@@ -1,14 +1,9 @@
 .Header {
-  margin-top: 140px;
+  margin-top: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
 
-}
-
-.Header p {
-  color: #9E9AA7;
-  font-weight: 400;
 }
 
 .Header .Image {
@@ -17,15 +12,21 @@
   width: 45vw;
 }
 
+.Header .description {
+  font-size: calc(11px + 0.5vw);
+  font-weight: 400;
+  margin-top: -30px;
+  color: #9E9AA7;
+}
+
 .Header .text {
   margin: 5vw;
   margin-left: 0;
-  font-weight: 300;
   max-width: 500px;
 }
 
 .Header .text h1 {
-  font-size: 55px;
+  font-size: calc(44px + 1.1vw);
   font-weight: 700;
 }
 
@@ -60,6 +61,19 @@
   .Header .desktop {
     display: none;
   }
+
+  .Header .text h1 {
+    font-size: 40px;
+  }
+
+  .Header .text {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .Header .mobile {
     display: flex;
     flex-direction: column;

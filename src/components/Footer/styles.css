@@ -6,13 +6,22 @@
   padding-top: 50px;
 }
 
+.Footer h1 {
+  font-weight: 700;
+}
+
 .Footer .greenButton {
   background-color: #2ACFCF;
   color: #FFFFFF;
   border-radius: 50px;
   padding: 20px 40px 20px 40px;
   border: none;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
+}
+
+.Footer .greenButton:hover {
+  background-color: #1ABFBF;
+  cursor: pointer;
 }
 
 .Footer .instance {
@@ -45,6 +54,9 @@
 @media screen and (max-width: 800px) {
   .Footer .socialMedia {
     flex-direction: column;
+  }
+  .Footer .footerBox {
+   background-image: url("./mobile0.svg");
   }
 
 }

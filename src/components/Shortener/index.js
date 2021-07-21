@@ -35,7 +35,7 @@ export default function Shortener() {
         type="text" placeholder="Shorten a link here..."
         value={link} onChange={setValue}/>
         <button className="greenButton" type="submit">Shorten it!</button>
-        <div>
+        <div className="message">
         {loading && <p className="loading">Loading...</p>}
         {console.log(isError)}
         {isError && <p className="error">Please type a link</p>}
