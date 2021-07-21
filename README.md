@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Atividade 9 - Encurtador de Links
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A infoJr decidiu facilitar a vida dos seus membros espalhadores de fake news no whats, seu objetivo é criar um site que irá encurtar os longos links, obrigando aos curiosos ter que abri-los para descobrir a notícia.
 
-## Available Scripts
+## Informações principais
 
-In the project directory, you can run:
+- **Núcleo: Front-End**
+- **Coordenador: Abner Rodrigues**
+- **Data da Atividade:**10/07/21
+- **Data de Entrega:**17/07/21
 
-### `npm start`
+## Descrição da atividade
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Funções necessárias:
+- Usar API: https://shrtco.de/docs/
+- Seguir o mockup: https://www.figma.com/file/LWoMO7qFajxMNypcb1rsoA/Shortly
+- Apresentar aviso de erro na caixa de pesquisa, quando a api não funcionar
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Materiais de apoio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://pusher.com/tutorials/consume-restful-api-react
 
-### `npm run build`
+## Instruções para envio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório no seu computador
+2. Crie a partir da `master` uma nova branch com o seu nome (ou o nome de alguma pessoa do grupo, caso a atividade seja em grupo). Por exemplo: `thales`
+3. Construa a sua atividade inteiramente nessa branch, e não hesite em pedir por ajuda caso tenha dificuldades
+4. Verifique se todos os requisitos foram cumpridos
+5. Inclua na ficha de entrega do `README.md` o nome de todas as pessoas de sua equipe (ou apenas o seu nome, caso a atividade seja individual)
+6. Suba a sua branch para este repositório
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Ficha de entrega
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Atividade entregue por: [...]
